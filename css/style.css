@@ -33,6 +33,7 @@ header #login {
   text-align: right;
 }
 
+/* Hero section  */
 /* altezza da togliere */
 
 .hero-section {
@@ -51,3 +52,53 @@ header #login {
   margin: 20px;
 }
 
+/* /Hero section  */
+
+/* white background section */
+/* altezza da togliere */
+
+section.white-background {
+  background-color: #ffffff;
+  height: 280px;
+}
+
+.white-background .container,
+.gray-background .container,
+.gray-green-section .container {
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.lightblue-block {
+  width: 50%;
+  background-color:#1e90ff;
+  height: 240px;
+}
+
+.pink-block {
+  background-color: #ffc0cb;
+  height: 240px;
+  width: 30%;
+}
+
+/* gray background section */
+/* altezza da togliere */
+
+section.gray-background {
+  background-color: #d3d3d3;
+  height: 280px;
+}
+
+/*gray background section whit green block*/
+/* altezza da togliere */
+
+section.gray-green-section {
+  background-color:#d3d3d3;
+  height: 350px;
+}
+
+.gray-green-section .green-block {
+  background-color: #228b22;
+  width: 80%;
+  height: 300px;
+}
