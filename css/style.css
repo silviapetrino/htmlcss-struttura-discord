@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: cadetblue;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+
+#header-section {
+  text-align: center;
+}
+
+#header-section .logo,
+#header-section p,
+#header-section #login {
+  display: inline;
+}
