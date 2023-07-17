@@ -8,7 +8,6 @@ body {
   background-color: #add8e6;
 }
 
-
 .container, 
 header .header-container, 
 footer .foot-nav-container {
@@ -74,7 +73,7 @@ header #login {
 /* /Hero section  */
 
 /* white background section */
-/* altezza da togliere */
+/* altezze da togliere */
 
 section.white-background {
   background-color: #ffffff;
@@ -105,7 +104,7 @@ section.gray-background {
 }
 
 /*gray background section whit green block*/
-/* altezza da togliere */
+/* altezze da togliere */
 
 section.gray-green-section {
   background-color:#d3d3d3;
@@ -121,7 +120,7 @@ section.gray-green-section {
 
 /* footer  */
 
-/* altezza da togliere */
+/* altezze da togliere */
 
 footer {
   background-color: #23272a;
