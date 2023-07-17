@@ -4,34 +4,56 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 80%;
-  margin: 0px auto;
-  max-width: 1200px;
+body {
+  background-color: #add8e6;
+}
+
+
+.container, 
+header .header-container, 
+footer .foot-nav-container {
+  margin: 0 auto;
   display: flex;
+  max-width: 1200px;
+  width: 75%;
+}
+
+.container { 
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+header .header-container, 
+footer .foot-nav-container {
+  justify-content: space-between;
+  width: 60%;
 }
 
 header {
   background-color: #add8e6;
-  height: 50px;
+  height: 60px;
+  margin: 10px auto;
 }
 
-header .container {
+header .header-container {
   background-color: #daa520;
-  justify-content: space-between;
+  border: 1px dashed black;
 }
+
 
 header .logo {
   text-align: left;
+  border: 1px dashed black;
 }
 
 header .nav {
   text-align: center;
+  border: 1px dashed black;
 }
 
 header #login {
   text-align: right;
-}
+  border: 1px dashed black;}
 
 /* Hero section  */
 /* altezza da togliere */
@@ -41,15 +63,12 @@ header #login {
   height: 250px;
 }
 
-.hero-section .container{
-  justify-content: center;
-}
-
 .hero-item {
   background-color: #ee82ee;
+  border: 1px dashed black;
   width: 40%;
   height: 200px;
-  margin: 20px;
+  margin: 5px;
 }
 
 /* /Hero section  */
@@ -62,21 +81,16 @@ section.white-background {
   height: 280px;
 }
 
-.white-background .container,
-.gray-background .container,
-.gray-green-section .container,
-footer .container {
-  justify-content: center;
-  padding: 20px 0px;
-}
 
 .lightblue-block {
+  border: 1px dashed black;
   width: 50%;
   background-color:#1e90ff;
   height: 240px;
 }
 
 .pink-block {
+  border: 1px dashed black;
   background-color: #ffc0cb;
   height: 240px;
   width: 30%;
@@ -100,29 +114,47 @@ section.gray-green-section {
 
 .gray-green-section .green-block {
   background-color: #228b22;
+  border: 1px dashed black;
   width: 80%;
   height: 400px;
 }
 
 /* footer  */
+
 /* altezza da togliere */
 
 footer {
   background-color: #23272a;
 }
 
-footer .container {
-  border-bottom: 2px solid white;
-}
-
-.first-col {
-  border: 1px solid white;
+footer .first-col {
+  border: 1px dashed white;
   width: calc(80% / 3);
 }
 
-.col {
-  border: 1px solid white;
+footer .col {
+  border: 1px dashed white;
   width: calc(80% / 6);
   height: 280px;
+  background-color: #1e90ff;
 }
 
+footer .first-col {
+  background-color: #f08080;
+}
+
+/* footer nav  */
+
+footer .foot-nav-container {
+  border-top: 1px solid white;
+  padding-top: 10px;
+}
+
+.logo-nav, #registrati {
+  background-color: pink;
+  width: 50px;
+  height: 20px;
+}
+
+
+/* /footer  */
