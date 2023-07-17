@@ -5,25 +5,49 @@
 }
 
 .container {
-  background-color: cadetblue;
-  margin: 0 auto;
+  width: 75%;
+  margin: 0px auto;
   max-width: 1200px;
+  display: flex;
 }
 
-#header-section {
+header {
+  background-color: #add8e6;
+  height: 50px;
+}
+
+header .container {
+  background-color: #daa520;
+  justify-content: space-between;
+}
+
+header .logo {
+  text-align: left;
+}
+
+header .nav {
   text-align: center;
 }
 
-#header-section .logo,
-#header-section p,
-#header-section #login {
-  display: inline;
-  background-color: orange;
+header #login {
+  text-align: right;
 }
 
-/* hero */
+/* altezza da togliere */
 
-.hero {
+.hero-section {
   background-color: #00008b;
-  height: 300px;
+  height: 250px;
 }
+
+.hero-section .container{
+  justify-content: center;
+}
+
+.hero-item {
+  background-color: #ee82ee;
+  width: 40%;
+  height: 200px;
+  margin: 20px;
+}
+
